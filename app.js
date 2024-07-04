@@ -14,7 +14,7 @@ const authMiddleware = require('./middleware/auth');
 const User = require('./models/User');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 const mongoURI = process.env.MONGO_URI;
 
