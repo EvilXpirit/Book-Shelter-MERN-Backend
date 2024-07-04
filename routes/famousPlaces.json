@@ -1,0 +1,98 @@
+[
+  {
+      "_id": "66578ac4c142793382d5f9ae",
+      "name": "Taj Mahal",
+      "description": "A beautiful mausoleum in India, built by Mughal Emperor Shah Jahan.",
+      "imageUrl": "https://thumbs.dreamstime.com/b/taj-mahal-agra-india-morning-light-reflection-water-uttar-pradesh-108954918.jpg",
+      "location": "Agra, India",
+      "__v": 0
+  },
+  {
+      "_id": "66579063c142793382d5f9b9",
+      "name": "Eiffel Tower",
+      "description": "An iconic symbol of France, located in Paris.",
+      "imageUrl": "https://www.toureiffel.paris/sites/default/files/styles/mobile_x1_560/public/actualite/image_principale/vue_depuisjardins_webbanner_3.jpg?itok=YjGzrcsL",
+      "location": "Paris, France",
+      "__v": 0
+  },
+  {
+      "_id": "6657991bc142793382d5f9c3",
+      "name": "Statue of Liberty",
+      "description": "A colossal statue located on Liberty Island in New York City, USA.",
+      "imageUrl": "https://imagedelivery.net/8VdmUEQE_-HBW9Yz75Uh6g/6260b3ea-2046-48b2-0c4e-59c36acb7c00/width=800,quality=100,format=auto,fit=contain",
+      "location": "New York City, USA",
+      "__v": 0
+  },
+  {
+      "_id": "665799b5c142793382d5f9c7",
+      "name": "Pyramids of Giza",
+      "description": "Ancient pyramids located on the Giza Plateau near Cairo, Egypt.",
+      "imageUrl": "https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg?auto=format&w=1440&h=810&fit=crop&q=75",
+      "location": "Giza, Egypt",
+      "__v": 0
+  },
+  {
+      "_id": "66579a79c142793382d5f9ce",
+      "name": "Jaipur City Palace",
+      "description": "A palace complex in Jaipur, the capital of the Rajasthan state, India.",
+      "imageUrl": "https://www.palacesonwheels.com/wp-content/uploads/2013/12/city_palace.jpg",
+      "location": "Jaipur, Rajasthan",
+      "__v": 0
+  },
+  {
+      "_id": "66579a8cc142793382d5f9d2",
+      "name": "Gateway of India",
+      "description": "A monumental arch in Mumbai, overlooking the Arabian Sea.",
+      "imageUrl": "https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage.jpeg",
+      "location": "Mumbai, Maharashtra",
+      "__v": 0
+  },
+  {
+      "_id": "66579a96c142793382d5f9d4",
+      "name": "Kerala Backwaters",
+      "description": "A network of interconnected canals, rivers, lakes and inlets in the Indian state of Kerala.",
+      "imageUrl": "https://static.toiimg.com/photo/msid-83336319,width-96,height-65.cms",
+      "location": "Kerala",
+      "__v": 0
+  },
+  {
+      "_id": "66579af8c142793382d5f9d8",
+      "name": "Niagara Falls",
+      "description": "A group of three waterfalls at the southern end of Niagara Gorge.",
+      "imageUrl": "https://cdn.britannica.com/30/94430-050-D0FC51CD/Niagara-Falls.jpg",
+      "location": "Ontario, Canada / New York, USA",
+      "__v": 0
+  },
+  {
+      "_id": "66579c24c142793382d5f9e9",
+      "name": "Mount Fuji",
+      "description": "An iconic volcano and the highest peak in Japan.",
+      "imageUrl": "https://cdn.britannica.com/96/196396-050-13758154/Chureito-Pagoda-Arakura-Sengen-Shrine-Mount-Fuji.jpg",
+      "location": "Honshu, Japan",
+      "__v": 0
+  },
+  {
+      "_id": "66579ca1c142793382d5f9ee",
+      "name": "Grand Canyon",
+      "description": "A massive canyon in Arizona, USA, known for its stunning views.",
+      "imageUrl": "https://www.americanrivers.org/wp-content/uploads/2022/12/AmyMartin_GC_from_above.jpg",
+      "location": "Arizona, USA",
+      "__v": 0
+  },
+  {
+      "_id": "66579cd1c142793382d5f9f0",
+      "name": "Darjeeling",
+      "description": "A town in India's West Bengal state, in the Himalayan foothills.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tea_Estate%2C_Darjeeling.jpg/1200px-Tea_Estate%2C_Darjeeling.jpg",
+      "location": "West Bengal",
+      "__v": 0
+  },
+  {
+      "_id": "66579db6c142793382d5f9f6",
+      "name": "Qutub Minar",
+      "description": "A minaret and victory tower that forms part of the Qutub complex, a UNESCO World Heritage Site in Delhi.",
+      "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201704/647_042717101905.jpg",
+      "location": "Delhi",
+      "__v": 0
+  }
+]
