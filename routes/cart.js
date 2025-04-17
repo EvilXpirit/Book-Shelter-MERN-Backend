@@ -2,15 +2,27 @@ const express = require('express');
 const CartItem = require('../models/CartItem');
 const router = express.Router();
 
+const authMiddleware = require('../middleware/auth');
+
+// Apply auth middleware to all cart routes
+router.use(authMiddleware);
+
+
 // Add an item to the cart
 router.post('/', async (req, res) => {
   const { bookId, quantity } = req.body;
+  const userId = req.user.userId;
+
   try {
-    let cartItem = await CartItem.findOne({ book: bookId });
+    let cartItem = await CartItem.findOne({ user: userId, book: bookId });
     if (cartItem) {
       cartItem.quantity += quantity;
     } else {
-      cartItem = new CartItem({ book: bookId, quantity });
+      cartItem = new CartItem({ 
+        user: userId,
+        book: bookId, 
+        quantity 
+      });
     }
     await cartItem.save();
     res.status(201).json(cartItem);
@@ -23,7 +35,9 @@ router.post('/', async (req, res) => {
 // Get all items in the cart
 router.get('/', async (req, res) => {
   try {
-    const cartItems = await CartItem.find().populate('book');
+    const cartItems = await CartItem.find({ user: req.user.userId })
+      .populate('book')
+      .populate('user', 'username email');
     res.json(cartItems);
   } catch (error) {
     console.error('Error fetching cart items:', error);
