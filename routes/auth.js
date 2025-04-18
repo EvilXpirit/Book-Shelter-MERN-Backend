@@ -97,10 +97,18 @@ router.post('/logout', async (req, res) => {
       res.send('Logged out successfully');
     } catch (error) {
       if (error.name === 'TokenExpiredError') {
-        res.status(401).send('Token has expired, please log in again');
+        res.status(401).json({
+          status: 'error',
+          message: 'Token has expired',
+          redirect: '/login'
+        });
       } else {
         console.error('JWT verification failed:', error);
-        res.status(401).send('Invalid token');
+        res.status(401).json({
+          status: 'error',
+          message: 'Invalid token',
+          redirect: '/login'
+        });
       }
     }
   } catch (error) {
